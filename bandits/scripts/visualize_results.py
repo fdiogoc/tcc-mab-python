@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from numpy import genfromtxt
 import glob
 
-path = r'/Users/jamesledoux/Documents/bandits/results' # use your path
+path = r'../results/' # use your path
 all_files = glob.glob(path + "/*.csv")
 
 all_dataframes = []
@@ -68,9 +68,9 @@ plt.rc('font', size=12)
 
 plt.savefig(path + '/all_plots.png')
 
-best_epsilon = '/Users/jamesledoux/Documents/bandits/results/epsilon_greedy_100_5_0.1_1500_raw.csv'
-best_ucb = '/Users/jamesledoux/Documents/bandits/results/bayesian_100_5_1.5_1500_raw.csv'
-best_exp = '/Users/jamesledoux/Documents/bandits/results/exp3_100_5_0.1_1500_raw.csv'
+best_epsilon = '../results/results/epsilon_greedy_100_5_0.1_1500_raw.csv'
+best_ucb = '../results/bayesian_100_5_1.5_1500_raw.csv'
+best_exp = '../results/exp3_100_5_0.1_1500_raw.csv'
 
 epsilon = genfromtxt(best_epsilon, delimiter=',')
 ucb = genfromtxt(best_ucb, delimiter=',')
