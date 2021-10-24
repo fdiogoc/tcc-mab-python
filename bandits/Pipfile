@@ -1,0 +1,9 @@
+[[source]]
+verify_ssl = true
+name = "mab"
+
+[packages]
+numpy="*"
+pandas="*"
+
+[dev-packages]
