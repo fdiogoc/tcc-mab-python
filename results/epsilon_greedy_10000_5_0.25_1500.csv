@@ -1,2 +1,2 @@
 batch_size, slate_size, epsilon, min_reviews_per_movie, mean_reward, sum_reward, num_trials
-10000, 5, 0.25, 1500, 0.48489376326091504, 48678, 100389
+10000, 5, 0.25, 1500, 0.49624582869855394, 49966, 100688
